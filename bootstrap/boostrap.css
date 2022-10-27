@@ -1,0 +1,93 @@
+/* Seu CSS neste arquivo */
+.row {
+    width: 100%;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  h1 {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  div{
+    padding: 10px;
+  }
+  h3{
+    margin-top: -1px;
+    margin-right: -1px;
+    padding: 7px;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    clear: right;
+    float: right;
+  }
+  p{
+    clear: right;
+    padding: 10px;
+  }
+  .tituloPeixe{
+    
+    border: 1px solid black;
+    background-color: green;
+  font-size: 140%;
+    
+  }
+  .tituloFrango{
+  
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    font-size: 130%;
+  }
+  .tituloFile{
+  
+    border: 1px solid black;
+    background-color: cyan;
+    font-size: 150%;
+  }
+  section {
+    border: 1px solid black;
+    background-color: grey;
+    width: 100%;
+    min-height: 310px;
+    
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Helvetica;
+    color: black;
+    height: fit-content;
+    
+  }
+
+@media (min-width: 992px) {
+    .comp{
+        float: left;
+    }
+    .comp{
+        width: 33.33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .tablet1, .tablet2{
+        float: left;
+    }
+    .tablet1{
+        width: 50%;
+    }
+    .tablet2{
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .cell{
+        float: left;
+    }
+    
+    .cell{
+        width: 100%;
+    }
+}
